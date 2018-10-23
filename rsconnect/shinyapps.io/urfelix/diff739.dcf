@@ -1,0 +1,13 @@
+name: diff739
+title: diff739
+username:
+account: urfelix
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 389195
+bundleId: 1643383
+url: https://urfelix.shinyapps.io/diff739/
+when: 1539598550.48146
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: abstract_text.Rmd|gff_table|mat_all_table|mat_copper_table|mat_deletion_table|thoughts_plotting.R

@@ -1,0 +1,33 @@
+#menu-fsgalmrhiualwyddpsvd > a.item.active {
+  color:black;
+}
+
+#toggle_menu:hover {
+  color: #172869;
+}
+
+#uisidebar > a:hover {
+  color: #172869;
+}
+
+
+
+.five.wide.column > .ui.segment.raised {
+  height: 130px;
+}
+
+/*
+.fifteen.wide.column {
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+*/
+.ui.top.right.ribbon.label {
+  color: white;
+  background-color: #172869;
+}
+
+.selectize-input {
+  font-weight: bold;
+  color: #172869;
+}

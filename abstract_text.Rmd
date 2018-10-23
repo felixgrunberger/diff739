@@ -1,0 +1,14 @@
+This document walks through an end-to-end gene-level RNA-seq differential
+expression workflow of using Bioconductor packages. 4 different samples of 
+*Pyrococcus furisus* (each in triplicates) will be compared in a pairwise manner. 
+For better documentation, isolation of RNA and library preparation method are also included. 
+From that on, data analysis starts from the FASTQ files, first showing how to access 
+initial quality, do a bioinformatic filtering of huge amounts of ribosomal RNA and trim 
+the reads with respect to their PHRED scores. After mapping the reads using STAR
+, abundance tables of all replicates and conditions can be created by using the 
+`featurecounts` function of `r Biocpkg("Rsubread")`. An exploratory
+data analysis (EDA) will be performed for quality assessment and to explore the 
+relationship between samples by Principal Component analysis (to check that
+samples are really replicates). Last steps will be to perform differential gene 
+expression analysis (DGE) using `r Biocpkg("DESeq2")`, visually explore the results 
+and see which cluster of orthologoues groups (COG) are enriched.   
